@@ -1,13 +1,31 @@
 # Face Mask Detection System
+<img src="https://news.cgtn.com/news/77497a4e7a457a4e3241444d34636a4e3359444f31457a6333566d54/img/d87b2bb0ca8e47dcbff030e6d644f7de/d87b2bb0ca8e47dcbff030e6d644f7de.jpg">
+
 ## Overview
 This project is a Face Mask Detection System developed using Streamlit, OpenCV, Keras, and TensorFlow. The system can detect whether individuals are wearing a mask or not in images, videos, and real-time streams from a webcam or IP camera. It includes various functionalities for image and video analysis, and it uses a pre-trained deep learning model for mask detection.
-
+## Objective
+The objective of the Face Mask Detection System (FMDS) is to develop an automated solution that can accurately detect whether individuals are wearing face masks in real-time. The system utilizes machine learning models and computer vision techniques to analyze images, videos, and real-time streams from webcams or IP cameras. This application is aimed at promoting public health safety by assisting in the enforcement of mask-wearing protocols in public places, workplaces, and other environments.
 ## Features
   - **Image Face Mask Detection:** Upload an image to detect whether individuals are wearing masks.
   - **Video Face Mask Detection:** Upload a video to analyze mask-wearing status across frames.
   - **Web Camera Face Mask Detection:** Stream live video from your webcam and detect mask-wearing status in real-time.
   - **IP Camera Face Mask Detection:** Stream video from an IP camera and detect mask-wearing status.
+## Technology Stack
+  **Frontend:** Streamlit
+  **Backend:** Python, Keras, OpenCV
+  **Machine Learning Model:** Convolutional Neural Network (CNN) for mask detection
+## Libraries:
+  - streamlit
+  - opencv-python
+  - keras
+  - numpy
+  - PIL
 ## Installation
+To get a copy of the project up and running locally, follow these steps:
+
+**Prerequisites**
+Python 3.x installed
+Virtual environment (optional but recommended)
   1. **Clone the Repository:**
 
     ```bash
@@ -43,48 +61,18 @@ This project is a Face Mask Detection System developed using Streamlit, OpenCV, 
       ```
   2. **Navigate to the Localhost URL**
 
-  Open your web browser and go to http://localhost:8501 to access the Face Mask Detection System.
+    Open your web browser and go to http://localhost:8501 to access the Face Mask Detection System.
 
-How It Works
-Image Face Mask Detection:
+## Project Structure
+  ```bash
+  
+  Facemask-Detection-System/
+  │
+  ├── face.xml                       # Pre-trained face detection model (Haar Cascade)
+  ├── mask.h5                        # Pre-trained mask detection model (Keras)
+  ├── app.py                         # Main Streamlit application file
+  ├── requirements.txt               # Required dependencies
+  └── README.md                      # Project documentation
 
-Upload an image.
-The system detects faces and checks if masks are being worn.
-Results are displayed with bounding boxes and labels.
-Video Face Mask Detection:
-
-Upload a video.
-The system processes each frame to detect mask-wearing status.
-Results are displayed with bounding boxes and labels for each frame.
-Web Camera Face Mask Detection:
-
-Click "Start Camera" to begin live video feed from your webcam.
-The system detects mask-wearing status in real-time.
-IP Camera Face Mask Detection:
-
-Enter the URL of your IP camera and click "Start Camera."
-The system detects mask-wearing status in the video feed from the IP camera.
-Contributing
-Feel free to open issues and submit pull requests if you have suggestions or improvements.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-OpenCV for image processing.
-Keras for deep learning model handling.
-Streamlit for the web application interface.
-
-Project Structure
-bash
-Copy code
-Facemask-Detection-System/
-│
-├── face.xml                       # Pre-trained face detection model (Haar Cascade)
-├── mask.h5                        # Pre-trained mask detection model (Keras)
-├── app.py                         # Main Streamlit application file
-├── requirements.txt               # Required dependencies
-└── README.md                      # Project documentation
-
-
+  ```
 
