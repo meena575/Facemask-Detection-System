@@ -71,6 +71,7 @@ Virtual environment (optional but recommended)
 
   - Face Cascade XML[Download Here](face.xml)
   - Mask Detection Model[Download Here](mask.h5)
+    <img src="accuracy.png">
 ## Usage
   1. **Run the Streamlit App**
 
