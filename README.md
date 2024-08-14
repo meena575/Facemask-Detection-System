@@ -18,7 +18,7 @@
     - [Run the Streamlit App](#run-the-streamlit-app)
     - [Navigate to the Localhost URL](#navigate-to-the-localhost-url)
 8. [Project Structure](#project-structure)
-9. Project Demo Video
+9. [Project Demo Video](#Project-Demo-Video)
 ## Overview
 This project is a Face Mask Detection System developed using Streamlit, OpenCV, Keras, and TensorFlow. The system can detect whether individuals are wearing a mask or not in images, videos, and real-time streams from a webcam or IP camera. It includes various functionalities for image and video analysis, and it uses a pre-trained deep learning model for mask detection.
 ## Objective
