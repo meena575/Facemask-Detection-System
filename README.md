@@ -1,6 +1,24 @@
 # Face Mask Detection System
 <img src="https://news.cgtn.com/news/77497a4e7a457a4e3241444d34636a4e3359444f31457a6333566d54/img/d87b2bb0ca8e47dcbff030e6d644f7de/d87b2bb0ca8e47dcbff030e6d644f7de.jpg">
+## Table of Contents
 
+1. [Overview](#overview)
+2. [Objective](#objective)
+3. [Features](#features)
+4. [Technology Stack](#technology-stack)
+5. [Libraries](#libraries)
+6. [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Clone the Repository](#clone-the-repository)
+    - [Navigate to the Project Directory](#navigate-to-the-project-directory)
+    - [Create a Virtual Environment](#create-a-virtual-environment-optional-but-recommended)
+    - [Install Required Packages](#install-required-packages)
+    - [Download Pre-trained Models](#download-pre-trained-models)
+7. [Usage](#usage)
+    - [Run the Streamlit App](#run-the-streamlit-app)
+    - [Navigate to the Localhost URL](#navigate-to-the-localhost-url)
+8. [Project Structure](#project-structure)
+9. Project Demo Video
 ## Overview
 This project is a Face Mask Detection System developed using Streamlit, OpenCV, Keras, and TensorFlow. The system can detect whether individuals are wearing a mask or not in images, videos, and real-time streams from a webcam or IP camera. It includes various functionalities for image and video analysis, and it uses a pre-trained deep learning model for mask detection.
 ## Objective
@@ -73,6 +91,7 @@ Virtual environment (optional but recommended)
   ├── app.py                         # Main Streamlit application file
   ├── requirements.txt               # Required dependencies
   └── README.md                      # Project documentation
-
   ```
+## Project Demo Video
+[watch here](https://drive.google.com/file/d/132ZWH-7bfS2U5ZtZHAWd-juagMGor4jK/view?usp=sharing)
 
