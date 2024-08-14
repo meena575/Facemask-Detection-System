@@ -70,7 +70,8 @@ Virtual environment (optional but recommended)
   Make sure you have the face.xml and mask.h5 files in the project directory. You can find these files:
 
   - Face Cascade XML[Download Here](face.xml)
-  - Mask Detection Model[Download Here](mask.h5)
+  - Mask Detection Model(97% Accuracy)[Download Here](mask.h5)
+    
     <img src="accuracy.png">
 ## Usage
   1. **Run the Streamlit App**
