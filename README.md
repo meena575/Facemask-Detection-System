@@ -93,5 +93,5 @@ Virtual environment (optional but recommended)
   └── README.md                      # Project documentation
   ```
 ## Project Demo Video
-[watch here](https://drive.google.com/file/d/132ZWH-7bfS2U5ZtZHAWd-juagMGor4jK/view?usp=sharing)
+[Watch Here](https://drive.google.com/file/d/132ZWH-7bfS2U5ZtZHAWd-juagMGor4jK/view?usp=sharing)
 
